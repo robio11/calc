@@ -1,0 +1,84 @@
+body {
+    width: 550px;
+    margin: 4% auto;
+    background-color: cadetblue;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Water Brush', cursive;
+    letter-spacing: 5px;
+    font-size: 1.8rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.calc {
+    padding: 20px;
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.input {
+    border: 2px solid #ddd;
+    border-radius: 1px;
+    height: 60px;
+    padding-right: 10px;
+    padding-top: 10px;
+    text-align: right;
+    margin-right: 6px;
+    font-size: 2.5rem;
+    overflow-x: auto;
+    transition: all 0.2s ease-in-out;
+}
+
+.input:hover {
+    border: 1px solid #bbb;
+    color: white;
+    -webkit-box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.4);
+}
+
+.numbers div {
+    display: inline-block;
+    border: 2px solid #bbb;
+    border-radius: 2px;
+    width: 80px;
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 10px;
+    margin: 20px 4px 10px 0px;
+    cursor: pointer;
+    transition: border-color .2s ease-in-out, background-color .2s , box-shadow .2s ;
+}
+.numbers div:hover{
+    border: 2px solid #bbb;
+    -webbkit-box-shadow :inset 0px 1px 4px 0px rgba(0,0,0,0.4);
+    box-shadow :inset 0px 1px 4px 0px rgba(0,0,0,0.4);
+    color: white;
+}
+.numbers div:active {
+    font-weight: bold;
+}
+div.equals{
+display: inline-block;
+border: 1px solid #bbb;
+border-radius: 2px;
+width: 17%;
+text-align: center;
+font-size: 2.5rem;
+padding: 127px 10px;
+margin: 10px 6px 10px 0px;
+vertical-align: top;
+cursor: pointer;
+transition: all .2s ease-in-out;
+}
+div.equals:hover{
+    border: 2px  solid #bbb;
+    /* color: white; */
+    background-color: white;
+    -webkit-box-shadow:inset 0px 1px 4px 0px rgba(0,0,0,0.8);
+    box-shadow: inset 0px 1px 4px  0px rgba (0,0,0,0.8);
+}
+div.equal:active{
+    font-weight: bold;
+}
